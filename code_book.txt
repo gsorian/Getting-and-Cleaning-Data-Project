@@ -1,0 +1,121 @@
+Data Dictionary - Human Activity Recognition using Smartphones
+
+Subject_id			Numeric 2 spaces
+		Numeric id for each of the 30 volunteers whose data was recorded with Smartphone
+			1		Volunteer 1
+			2		Volunteer 2
+			3		Volunteer 3
+			4		Volunteer 4
+			5		Volunteer 5
+			6		Volunteer 6
+			7		Volunteer 7
+			8		Volunteer 8
+			9		Volunteer 9
+			10		Volunteer 10
+			11		Volunteer 11
+			12		Volunteer 12
+			13		Volunteer 13
+			14		Volunteer 14
+			15		Volunteer 15
+			16		Volunteer 16
+			17		Volunteer 17
+			18		Volunteer 18
+			19		Volunteer 19
+			20		Volunteer 20
+			21		Volunteer 21
+			22		Volunteer 22
+			23		Volunteer 23
+			24		Volunteer 24
+			25		Volunteer 25
+			26		Volunteer 26
+			27		Volunteer 27
+			28		Volunteer 28
+			29		Volunteer 29
+			30		Volunteer 30
+
+
+
+Activity			String
+	Activity performed by each volunteer while performing experiment
+			"WALKING"
+			"WALKING_UPSTAIRS"
+			"WALKING_DOWNSTAIRS"
+			"SITTING"
+			"STANDING"
+			"LAYING"
+
+
+Measurement			String
+	Mean and Standard deviation feature selected from features.txt file of original data set
+
+			"tBodyAcc-mean()-X"
+			"tBodyAcc-mean()-Y"
+			"tBodyAcc-mean()-Z"
+			"tBodyAcc-std()-X"
+			"tBodyAcc-std()-Y"
+			"tBodyAcc-std()-Z"
+			"tGravityAcc-mean()-X"
+			"tGravityAcc-mean()-Y"
+			"tGravityAcc-mean()-Z"
+			"tGravityAcc-std()-X"
+			"tGravityAcc-std()-Y"
+			"tGravityAcc-std()-Z"
+			"tBodyAccJerk-mean()-X"
+			"tBodyAccJerk-mean()-Y"
+			"tBodyAccJerk-mean()-Z"
+			"tBodyAccJerk-std()-X"
+			"tBodyAccJerk-std()-Y"
+			"tBodyAccJerk-std()-Z"
+			"tBodyGyro-mean()-X"
+			"tBodyGyro-mean()-Y"
+			"tBodyGyro-mean()-Z"
+			"tBodyGyro-std()-X"
+			"tBodyGyro-std()-Y"
+			"tBodyGyro-std()-Z"
+			"tBodyGyroJerk-mean()-X"
+			"tBodyGyroJerk-mean()-Y"
+			"tBodyGyroJerk-mean()-Z"
+			"tBodyGyroJerk-std()-X"
+			"tBodyGyroJerk-std()-Y"
+			"tBodyGyroJerk-std()-Z"
+			"tBodyAccMag-mean()"
+			"tBodyAccMag-std()"
+			"tGravityAccMag-mean()"
+			"tGravityAccMag-std()"
+			"tBodyAccJerkMag-mean()"
+			"tBodyAccJerkMag-std()"
+			"tBodyGyroMag-mean()"
+			"tBodyGyroMag-std()"
+			"tBodyGyroJerkMag-mean()"
+			"tBodyGyroJerkMag-std()"
+			"fBodyAcc-mean()-X"
+			"fBodyAcc-mean()-Y"
+			"fBodyAcc-mean()-Z"
+			"fBodyAcc-std()-X"
+			"fBodyAcc-std()-Y"
+			"fBodyAcc-std()-Z"
+			"fBodyAccJerk-mean()-X"
+			"fBodyAccJerk-mean()-Y"
+			"fBodyAccJerk-mean()-Z"
+			"fBodyAccJerk-std()-X"
+			"fBodyAccJerk-std()-Y"
+			"fBodyAccJerk-std()-Z"
+			"fBodyGyro-mean()-X"
+			"fBodyGyro-mean()-Y"
+			"fBodyGyro-mean()-Z"
+			"fBodyGyro-std()-X"
+			"fBodyGyro-std()-Y"
+			"fBodyGyro-std()-Z"
+			"fBodyAccMag-mean()"
+			"fBodyAccMag-std()"
+			"fBodyBodyAccJerkMag-mean()"
+			"fBodyBodyAccJerkMag-std()"
+			"fBodyBodyGyroMag-mean()"
+			"fBodyBodyGyroMag-std()"
+			"fBodyBodyGyroJerkMag-mean()"
+			"fBodyBodyGyroJerkMag-std()"
+
+
+
+Value				Numeric
+	Average Numeric Value of each Measurement 
